@@ -78,7 +78,7 @@ export const App = () => {
     <div className="App">
       <h1>Add todo form</h1>
 
-      <form onSubmit={event => hadleSubmit(event)}>
+      <form onSubmit={hadleSubmit}>
         <div className="field">
           <label htmlFor="title">Title:&nbsp;</label>
           <input
